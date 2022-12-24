@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import ProtectedRoutes from "./components/ProtectedRoutes";
 import ErrorCard from "./pages/ErrorCard";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import Pokedex from "./pages/Pokedex";
 import PokedexInfo from "./pages/PokedexInfo";
 
