@@ -1,6 +1,7 @@
 .pagination {
   margin-top: 2.5em;
   margin-bottom: 1em;
+  width: 100%;
 }
 
 .pagination__list {
