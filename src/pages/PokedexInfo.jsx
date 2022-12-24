@@ -97,7 +97,7 @@ const PokedexInfo = () => {
               </ul>
             </div>
             <div className='poke-card-info__abilities-container'>
-              <h3 className='poke-card-info__title'>Abilities</h3>
+              <h3 className='poke-card-info__abilities-title'>Abilities</h3>
               <ul className='poke-card-info__ability-container'>
                 {pokemon?.abilities.map((ability) => (
                   <li

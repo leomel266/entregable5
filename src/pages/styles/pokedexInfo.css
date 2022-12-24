@@ -7,7 +7,7 @@
 .btn__goBack {
   position: absolute;
   right: 83%;
-  top: 20%;
+  top: 15%;
   width: 60px;
   aspect-ratio: 1;
   border-radius: 50%;
@@ -82,9 +82,21 @@
 .poke-card-info__sprite {
   width: 30%;
   position: absolute;
-  top: -115px;
+  top: -40px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+@media only screen and (min-width: 800px) {
+  .poke-card-info__sprite {
+    top: -100px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .poke-card-info__sprite {
+    top: -100px;
+  }
 }
 
 .poke-card-info__name-container {
@@ -139,7 +151,8 @@
   }
 }
 
-.poke-card-info__title {
+.poke-card-info__abilities-title {
+  margin-bottom: 1em;
   text-align: center;
 }
 
@@ -172,6 +185,10 @@
   gap: 30px;
   color: white;
   text-align: center;
+}
+
+.poke-card-info__types-title {
+  margin-bottom: 1em;
 }
 
 .poke-card-info__types {

@@ -8,24 +8,22 @@ import "./styles/home.css";
 
 const Home = () => {
   const dispatch = useDispatch();
-
   const navigate = useNavigate();
-
-  const errorToast = (name) => {
-    toast.success(
-      `Okey... ${name}Something go wrong, maybe you write wrong the name of the pokemon, or who knows, maybe a Wizzard did it .`,
-      {
-        duration: 8000,
-      }
-    );
-  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(setTrainerGlobal(e.target.name.value.trim()));
+    welcomeToast(e.target.name.value);
     e.target.name.value = "";
     navigate("/pokedex");
   };
+
+  const welcomeToast = (e) => {
+    toast.success(`Hi ${e}! You can check every pokemon you want, enjoy! `, {
+      duration: 8000,
+    });
+  };
+
   return (
     <>
       <div className='home-container'>
