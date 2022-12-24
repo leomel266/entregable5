@@ -1,6 +1,7 @@
 .poke-container {
   width: 100%;
   min-width: 300px;
+  padding: 1em;
 }
 
 .btn__goBack {
@@ -32,6 +33,7 @@
 }
 
 .poke-card-info {
+  padding: 1em;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
@@ -42,6 +44,7 @@
 }
 
 .poke-card-info__body {
+  padding: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,6 +88,7 @@
 }
 
 .poke-card-info__name-container {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -118,6 +122,7 @@
 }
 
 .poke-card-info__typesAbility {
+  width: 100%;
   display: flex;
   flex-direction: row;
   gap: 80px;
@@ -198,6 +203,7 @@
 }
 
 .progressBar-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -216,14 +222,14 @@
 }
 
 .progressbar__bar {
-  width: 550px;
+  width: 400px;
   height: 20px;
   background-color: #f7f7f7;
   border-radius: 4px;
 }
 
 .progressbar__complete {
-  max-width: 550px;
+  max-width: 400px;
   height: 100%;
   background: linear-gradient(90deg, #fcd676 -2.25%, #e6901e 133.18%);
   border-radius: 4px;
