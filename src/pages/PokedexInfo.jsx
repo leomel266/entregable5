@@ -43,11 +43,11 @@ const PokedexInfo = () => {
 
   return (
     <>
-      <button
+      {/* <button
         onClick={handleClick}
         className={`btn__goBack bg-${pokemon?.types[0].type.name}`}>
         {"<"}
-      </button>
+      </button> */}
       <article
         className={`poke-card-info border-${pokemon?.types[0].type.name}`}>
         <header

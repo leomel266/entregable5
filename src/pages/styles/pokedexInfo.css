@@ -1,5 +1,6 @@
 .poke-container {
   width: 100%;
+  min-width: 300px;
 }
 
 .btn__goBack {
@@ -33,7 +34,7 @@
 .poke-card-info {
   width: 100%;
   max-width: 800px;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 7em;
   border-radius: 0.2em;
   border: 0.2em solid #ffffff;
