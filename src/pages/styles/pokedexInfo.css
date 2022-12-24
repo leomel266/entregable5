@@ -237,14 +237,18 @@
 }
 
 .progressbar__bar {
-  width: 400px;
+  width: 300px;
   height: 20px;
   background-color: #f7f7f7;
   border-radius: 4px;
 }
+@media only screen and (min-width: 800px) {
+  .progressbar__bar {
+    width: 400px;
+  }
+}
 
 .progressbar__complete {
-  max-width: 400px;
   height: 100%;
   background: linear-gradient(90deg, #fcd676 -2.25%, #e6901e 133.18%);
   border-radius: 4px;
