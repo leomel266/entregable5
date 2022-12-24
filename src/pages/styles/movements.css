@@ -1,0 +1,55 @@
+.movements-container {
+  width: 100%;
+  margin: auto;
+  max-width: 800px;
+  max-height: 500px;
+  margin-top: 2em;
+  border-radius: 0.2em;
+  border: 0.2em solid #ffffff;
+  background-color: #ffffff;
+  height: 400px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  margin-bottom: 2em;
+}
+
+.movements__title {
+  font-size: 2rem;
+}
+.movements__header {
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.movements__pixel {
+  border: 1px solid #aaa;
+  width: 500px;
+  margin-left: 2em;
+}
+.movements-container__list {
+  width: 200px;
+  height: 400px;
+}
+
+.movements__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-left: -20%;
+}
+
+.movements__item {
+  border-radius: 20px;
+  width: 130px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  color: #302f2f;
+  text-transform: capitalize;
+}

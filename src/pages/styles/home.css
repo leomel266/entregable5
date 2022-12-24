@@ -1,0 +1,42 @@
+.home-container {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 87vh;
+}
+
+.home__title {
+  font-size: 3rem;
+  color: #fe1936;
+}
+
+.home__paragraph {
+  color: #302f2f;
+}
+
+.home__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__input {
+  margin-top: 1.5em;
+  border: none;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  width: 200px;
+  height: 35px;
+}
+
+.home__btn {
+  margin-top: 1.5em;
+  background: #d93f3f;
+  color: #ffffff;
+  width: 120px;
+  height: 35px;
+}

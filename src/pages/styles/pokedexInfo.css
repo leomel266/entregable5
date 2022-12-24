@@ -1,0 +1,243 @@
+.poke-container {
+  width: 100%;
+}
+
+.btn__goBack {
+  position: absolute;
+  right: 90%;
+  top: 10%;
+  width: 60px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  background-color: #0f0f2d;
+}
+
+@media only screen and (min-width: 800px) {
+  .btn__goBack {
+    position: absolute;
+    right: 80%;
+    top: 10%;
+    width: 60px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    background-color: #0f0f2d;
+  }
+}
+
+.poke-card-info {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 7em;
+  border-radius: 0.2em;
+  border: 0.2em solid #ffffff;
+  background-color: #ffffff;
+}
+
+.poke-card-info__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5em;
+}
+
+.poke-card-info__header {
+  position: relative;
+  height: 130px;
+  background-color: #e35825;
+}
+
+.poke-card-info__name-id-container {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border: 1px solid #aaa;
+  display: flex;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.poke-card-info__name-id {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.poke-card-info__name {
+  text-transform: capitalize;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.poke-card-info__sprite {
+  width: 30%;
+  position: absolute;
+  top: -115px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.poke-card-info__name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.poke-card-info__span {
+  border: 1px solid #aaa;
+  width: 150px;
+}
+
+.poke-card-info__conditions {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 3em;
+}
+
+.poke-card-info__weight {
+  text-align: center;
+}
+
+.poke-card-info__height {
+  text-align: center;
+}
+
+.poke-card-info__weight-span {
+  color: #0f0f2d;
+}
+
+.poke-card-info__typesAbility {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.poke-card-info__title {
+  text-align: center;
+}
+
+.poke-card-info__ability {
+  width: 110px;
+  text-transform: capitalize;
+  color: #302f2f;
+  border: 1px solid #aaa;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+}
+.poke-card-info__types-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  color: white;
+  text-align: center;
+}
+
+.poke-card-info__ability-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  color: white;
+  text-align: center;
+}
+
+.poke-card-info__types {
+  text-align: center;
+}
+
+.poke-card-info__type {
+  width: 110px;
+  background-color: red;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+}
+
+.bg-info-fire {
+  background-color: #e75c35;
+}
+
+.bg-info-grass {
+  background-color: #85c9c5;
+}
+
+.bg-info-poison {
+  background-color: #6c3d9a;
+}
+
+.stats-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.stats__title-container {
+  margin-left: 13%;
+}
+
+.stats__pixel {
+  border: 1px solid #aaa;
+  width: 500px;
+  margin: auto;
+}
+
+.progressBar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.progressbar__title-container {
+  margin-top: 1.7em;
+  display: flex;
+}
+.progressBar__title-number {
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.progressbar__bar {
+  width: 550px;
+  height: 20px;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+}
+
+.progressbar__complete {
+  max-width: 550px;
+  height: 100%;
+  background: linear-gradient(90deg, #fcd676 -2.25%, #e6901e 133.18%);
+  border-radius: 4px;
+}
+
+.progressBar__title {
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-bottom: 0.2em;
+}
+
+#hp {
+  text-transform: uppercase;
+}
+
+.progressBar:nth-child(6) {
+  margin-bottom: 4em;
+}
