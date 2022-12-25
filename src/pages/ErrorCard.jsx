@@ -13,7 +13,7 @@ const ErrorCard = () => {
     <>
       <div className='error-container'>
         <h1 className='error__title'>Error, Something Go Wrong 😥</h1>
-        <p className='error__p'>Plis, check the pokemon name 😃</p>
+        <p className='error__p'>Plis, check the Pokemon's name 😃</p>
         <button className='error__btn' onClick={handleClick}>
           GO Pokedex
         </button>
